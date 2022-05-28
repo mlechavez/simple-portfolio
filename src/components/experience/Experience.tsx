@@ -27,7 +27,7 @@ const Experience = () => {
               <h5>{timeline.location}</h5>
               <p>{timeline.description}</p>
               <div className="link-container">
-                {timeline.links.map(link => <a key={link.id} href={link.src} target="_blank">{link.name}</a>)}
+                {timeline.links.map(link => <a key={link.id} href={link.src} target="_blank" rel="noreferrer">{link.name}</a>)}
               </div>
             </VerticalTimelineElement>
           ))}

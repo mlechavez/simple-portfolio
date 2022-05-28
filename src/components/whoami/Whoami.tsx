@@ -1,5 +1,4 @@
-import { Element, Link } from "react-scroll";
-import { FaChevronDown } from 'react-icons/fa';
+import { Element } from "react-scroll";
 
 import PageTitle from "../common/PageTitle";
 import ChevronDown from "../common/chevronDown/ChevronDown";

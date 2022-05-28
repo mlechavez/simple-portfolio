@@ -1,7 +1,7 @@
 import { useTypewriter } from 'react-simple-typewriter';
-import { animateScroll as scroll, Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa'
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import "./intro.scss";
 
