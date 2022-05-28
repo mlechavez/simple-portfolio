@@ -1,0 +1,38 @@
+@import "../../../variables.scss";
+
+.browser-card {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+
+  .titlebar {
+    height: 20px;
+    background: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+
+    .circle {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $dark-blue;
+      margin: 3px 4px;
+    }
+  }
+
+  .browser-content {
+    width: 100%;
+    transition: all 5s ease;
+  }
+
+  &:hover {
+    .browser-content {
+      transform: translateY(-65%);
+    }
+  }
+}
