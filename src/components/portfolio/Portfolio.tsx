@@ -1,4 +1,4 @@
-import { Element, animateScroll as scroll } from "react-scroll";
+import { Element } from "react-scroll";
 import BrowserCard from "../common/browserCard/BrowserCard";
 import PageTitle from "../common/PageTitle";
 import { portfolios } from "./data";

@@ -1,9 +1,8 @@
-import { useRef, useEffect, useState } from 'react';
 import { Element } from "react-scroll";
 import { images } from './data';
 import { motion } from "framer-motion";
 
-import { Navigation, Pagination, Scrollbar, A11y, EffectCube, EffectCoverflow } from 'swiper';
+import { Pagination, EffectCube, EffectCoverflow } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import PageTitle from '../common/PageTitle';
