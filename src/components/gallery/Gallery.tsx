@@ -44,11 +44,9 @@ const Gallery = () => {
           >
             {porsches.map(image => {
               return (
-                <>
-                  <SwiperSlide key={image.name}>
-                    <img src={image.src} alt={image.name} />
-                  </SwiperSlide>
-                </>
+                <SwiperSlide key={`${image.id.toString()}-${image.name}`}>
+                  <img src={image.src} alt={image.name} />
+                </SwiperSlide>
               )
             })}
           </Swiper>
@@ -75,11 +73,9 @@ const Gallery = () => {
           >
             {acns.map(image => {
               return (
-                <>
-                  <SwiperSlide key={image.name}>
-                    <img src={image.src} alt={image.name} />
-                  </SwiperSlide>
-                </>
+                <SwiperSlide key={`${image.id.toString()}-${image.name}`}>
+                  <img src={image.src} alt={image.name} />
+                </SwiperSlide>
               )
             })}
           </Swiper>

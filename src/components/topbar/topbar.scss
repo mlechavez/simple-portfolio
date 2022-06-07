@@ -121,3 +121,16 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .topbar {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .right {
+      .menu > ul {
+        display: none;
+      }
+    }
+  }
+}
