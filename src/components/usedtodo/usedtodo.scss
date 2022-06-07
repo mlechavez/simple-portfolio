@@ -9,6 +9,7 @@
     position: relative;
     overflow: hidden;
     min-height: 100vh;
+    text-align: center;
     background: rgba(255, 255, 255, 0.1);
 
     h2 {
@@ -44,6 +45,24 @@
       top: 70%;
       left: 50%;
       transform: translate(-70%, -50%);
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .usedToDo {
+    .wrapper {
+      h2 {
+        font-size: 100px;
+      }
+
+      h3 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 20px;
+      }
     }
   }
 }

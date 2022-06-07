@@ -14,9 +14,6 @@
     overflow: hidden;
     position: relative;
     margin-bottom: 60px;
-    // box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
-    //   rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
-    //   rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     box-shadow: rgba(255, 215, 23, 0.4) 5px 5px,
       rgba(255, 215, 170, 0.3) 10px 10px, rgba(255, 215, 170, 0.2) 15px 15px,
       rgba(255, 215, 170, 0.1) 20px 20px, rgba(255, 215, 170, 0.05) 25px 25px;
@@ -70,6 +67,25 @@
         position: absolute;
         bottom: 20px;
         left: 70%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+
+    .left {
+      position: relative;
+      width: 100vh;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: none;
       }
     }
   }

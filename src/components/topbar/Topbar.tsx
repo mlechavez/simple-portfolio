@@ -39,7 +39,6 @@ const Topbar = () => {
             ter
           </motion.span>
         </div>
-        {/* <span className="toggle">toggle</span> */}
       </div>
       <div className="right">
         <motion.div className="menu"
