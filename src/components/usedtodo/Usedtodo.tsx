@@ -1,6 +1,5 @@
-import { Element } from "react-scroll";
-import ChevronDown from '../common/chevronDown/ChevronDown';
-
+import { FaArrowDown } from "react-icons/fa";
+import { Element, Link } from "react-scroll";
 
 import "./usedtodo.scss";
 
@@ -11,20 +10,21 @@ type UsedtodoProps = {
   title: string;
   subtitle: string;
   desc: string;
+  buttonText: string;
 }
 
-const Usedtodo = ({ element, title, subtitle, desc, videoSrc, navigateTo }: UsedtodoProps) => {
+const Usedtodo = ({ element, title, subtitle, desc, videoSrc, navigateTo, buttonText }: UsedtodoProps) => {
   return (
     <Element className="usedToDo h-100" name={element}>
-      <div className="wrapper">
-        <h2>{title}</h2>
-        <h3>{subtitle}</h3>
-        <p>{desc}</p>
-        <ChevronDown navigateTo={navigateTo} color="white" size={30} blinking />
-        <video autoPlay muted loop className="video1-bg">
-          <source src={videoSrc} type="video/mp4" />
-        </video>
-      </div>
+      <h2>{title}</h2>
+      <h3>{subtitle}</h3>
+      <p>{desc}</p>
+      <Link className="btn btn-primary" to={navigateTo} spy={true} smooth={true} duration={800} >
+        {buttonText} <FaArrowDown size={24} />
+      </Link>
+      <video autoPlay muted loop className="video1-bg">
+        <source src={videoSrc} type="video/mp4" />
+      </video>
     </Element>
   );
 };

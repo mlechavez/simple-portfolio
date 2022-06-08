@@ -7,19 +7,19 @@ export const images = [
     id: 1,
     work: "porsche",
     name: "Network 1",
-    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsche1.JPG",
+    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsche8.jpg",
   },
   {
     id: 2,
     work: "porsche",
     name: "Network 2",
-    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsche2.JPG",
+    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsch3.JPG",
   },
   {
     id: 3,
     work: "porsche",
     name: "Pic 1",
-    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsch3.JPG",
+    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsche7.jpg",
     position: "100px",
   },
   {
@@ -32,7 +32,7 @@ export const images = [
     id: 5,
     work: "porsche",
     name: "Pic 3",
-    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsche5.JPG",
+    src: "https://titerniumstorage.blob.core.windows.net/my-assets/porsche6.jpg",
   },
   {
     id: 6,

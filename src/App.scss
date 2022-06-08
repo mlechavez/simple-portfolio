@@ -1,10 +1,53 @@
 @import "./variables.scss";
 
 * {
-  font-family: $font-family-sans-serif;
+  font-family: $sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 21px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $cursive;
+  color: $black;
+}
+
+h1 {
+  font-size: $h1;
+  line-height: 144px;
+}
+h2 {
+  font-size: $h2;
+  line-height: 112px;
+}
+h3 {
+  font-size: $h3;
+  line-height: 72px;
+}
+h4 {
+  font-size: $h4;
+  line-height: 48px;
+}
+h5 {
+  font-size: $h5;
+  line-height: 40px;
+}
+h6 {
+  font-size: $h6;
+  line-height: 30px;
+}
+
+p {
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  color: $black_75;
 }
 
 .app {
@@ -15,30 +58,55 @@
   min-height: 100vh;
 }
 .container {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .btn {
-  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 24px 48px;
   border: 1px solid transparent;
-  border-radius: 7px;
-  font-size: 18px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-family: $cursive;
+  text-align: center;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
-}
+  letter-spacing: 3px;
 
-.btn-primary {
-  background: $black;
-  color: $white;
-
-  &:hover {
-    background: $yellow;
-    color: lighten($black, 6.5%);
+  a {
+    font-family: $cursive;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
   }
 }
 
+.btn-primary {
+  background-color: $primary;
+  color: $white;
+  box-shadow: 0 4px 8px $secondary;
+
+  &:hover {
+    background: $secondary;
+    box-shadow: none;
+    box-shadow: 0 4px 8px $primary;
+  }
+
+  &:active {
+    background: $black_50;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
 /*
   320px — 480px: Mobile devices.
   481px — 768px: iPads, Tablets.

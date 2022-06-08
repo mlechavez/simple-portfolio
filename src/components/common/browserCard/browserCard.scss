@@ -9,8 +9,8 @@
   overflow: hidden;
 
   .titlebar {
-    height: 20px;
-    background: rgb(243, 242, 242);
+    height: 24px;
+    background: $black;
     display: flex;
     align-items: center;
     position: sticky;
@@ -20,8 +20,8 @@
       width: 6px;
       height: 6px;
       border-radius: 50%;
-      background: $dark-blue;
-      margin: 3px 4px;
+      background: $white;
+      margin: 3px 8px;
     }
   }
 

@@ -1,12 +1,34 @@
-// $black: #1b262c;
-$black: #444;
-$white: #e6e6e6;
-$dark-blue: #0f4c75;
-$blue: #3282b8;
-$light-blue: #bbe1fa;
-$red: #c84b31;
-$beige: #ecdbba;
-$yellow: #ffd717;
+// Colors
+$primary: #0d3562;
+$secondary: #096d6e;
+$gradient: linear-gradient(to right, #096d6e, #0d3562);
+$danger: #c33a04;
+$white: #fff;
 
-$font-family-sans-serif: "Poppins";
-$font-family-cursive: "Macondo";
+$black: #33383f;
+$black_75: rgba(51, 56, 63, 0.75);
+$black_50: rgba(51, 56, 63, 0.5);
+$black_25: rgba(51, 56, 63, 0.25);
+$black_10: rgba(51, 56, 63, 0.1);
+$black_5: rgba(51, 56, 63, 0.05);
+
+//  Font Family
+$sans-serif: "Josefin Sans";
+$cursive: "Nova Round";
+
+// Headings
+$h1: 119px;
+$h2: 84px;
+$h3: 59px;
+$h4: 42px;
+$h5: 30px;
+$h6: 21px;
+// $black: #1b262c;
+// $black: #444;
+// $white: #e6e6e6;
+// $dark-blue: #0f4c75;
+// $blue: #3282b8;
+// $light-blue: #bbe1fa;
+// $red: #c84b31;
+// $beige: #ecdbba;
+// $yellow: #ffd717;

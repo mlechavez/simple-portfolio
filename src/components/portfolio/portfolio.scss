@@ -1,19 +1,37 @@
 @import "../../variables.scss";
 
 .portfolio {
-  background: $black;
-
-  .wrapper {
+  border-bottom: 1px solid $black_10;
+  .container {
+    padding-top: 160px;
+    padding-bottom: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 100px;
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 128px;
+
+      h2 {
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: $h5;
+        line-height: 40px;
+      }
+    }
 
     .browser-card-list {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin-bottom: 128px;
     }
   }
 }
