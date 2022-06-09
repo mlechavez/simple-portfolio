@@ -26,10 +26,12 @@ const ThankYou = () => {
           </motion.p>
         </header>
         <motion.img
-          animate={{
-            rotate: 720,
-          }}
-          transition={{ duration: 3.5, type: "spring" }}
+          initial={{ rotate: 0 }}
+          whileInView={{ rotate: 720 }}
+          // animate={{
+          //   rotate: 720,
+          // }}
+          transition={transition}
           src="assets/github_image.png"
           alt="Mark Lester Echavez"
         />
