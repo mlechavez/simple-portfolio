@@ -4,8 +4,8 @@
   border-bottom: 1px solid $black_10;
 
   .container {
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@
       flex-direction: column;
       align-items: center;
       gap: 32px;
-      margin-bottom: 120px;
+      margin-bottom: 100px;
 
       h2 {
         text-transform: uppercase;
