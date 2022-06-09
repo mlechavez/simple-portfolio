@@ -91,22 +91,24 @@ p {
 .btn-primary {
   background-color: $primary;
   color: $white;
-  box-shadow: 0 4px 8px $secondary;
+  box-shadow: 0 4px 4px $secondary;
 
   &:hover {
     background: $secondary;
     box-shadow: none;
-    box-shadow: 0 4px 8px $primary;
+    box-shadow: 0 4px 4px $primary;
   }
 
   &:active {
     background: $black_50;
+    box-shadow: none;
   }
 }
 
 .text-center {
   text-align: center;
 }
+
 /*
   320px — 480px: Mobile devices.
   481px — 768px: iPads, Tablets.

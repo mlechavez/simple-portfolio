@@ -20,7 +20,7 @@
     position: relative;
     height: 900px;
     display: flex;
-    margin-bottom: 160px;
+    margin-bottom: 148px;
 
     &.bg-black {
       background: $black;
@@ -31,7 +31,7 @@
     }
 
     .swiper {
-      width: 2000px;
+      width: 1440px;
       height: 900px;
       position: absolute;
       left: 50%;
@@ -47,7 +47,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        object-fit: fill;
+        object-fit: cover;
       }
     }
   }
@@ -55,129 +55,10 @@
   p.text-center {
     width: 640px;
     align-self: center;
-    font-size: $h6;
-    line-height: 40px;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 
   .btn {
     align-self: center;
   }
 }
-
-// .gallery {
-//   padding: 100px 15px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   overflow-x: hidden;
-//   background: $black;
-//   position: relative;
-
-//   .wrapper {
-//     width: 100vw;
-//     display: flex;
-//     flex-direction: column;
-
-//     .col-1,
-//     .col-2 {
-//       text-align: center;
-//       margin-bottom: 250px;
-
-//       h3 {
-//         font-family: $font-family-sans-serif;
-//         font-size: 30px;
-//         font-weight: 200;
-//         margin-bottom: 70px;
-//       }
-//     }
-
-//     .col-1 {
-//       position: relative;
-
-//       h3 {
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         font-size: 60px;
-//         color: $white;
-//       }
-
-//       .swiper1 {
-//         width: 800px;
-//         height: 600px;
-
-//         .swiper-slide {
-//           background-position: center;
-//           background-size: contain;
-//         }
-
-//         .swiper-slide img {
-//           display: block;
-//           width: 100%;
-//           height: 100%;
-//           object-fit: contain;
-//         }
-//       }
-//     }
-
-//     .col-2 {
-//       position: relative;
-
-//       h3 {
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         font-size: 60px;
-//         color: $white;
-//       }
-
-//       .swiper2 {
-//         width: 100%;
-//         height: 600px;
-
-//         .swiper-slide {
-//           background-position: center;
-//           background-size: contain;
-//         }
-
-//         .swiper-slide img {
-//           display: block;
-//           width: 100%;
-//           height: 100%;
-//           object-fit: contain;
-//         }
-//       }
-//     }
-//   }
-
-//   .chevron-container {
-//     margin: 60px 0;
-//     z-index: 2;
-//   }
-
-//   // .wrapper {
-//   //   display: flex;
-//   //   // justify-content: center;
-//   //   // align-items: center;
-//   //   .left,
-//   //   .center,
-//   //   .right {
-//   //     height: 100vh;
-//   //     flex: 0.5;
-//   //     position: relative;
-//   //     display: flex;
-//   //   }
-
-//   //   .left {
-//   //     img {
-//   //     }
-//   //   }
-//   //   .center {
-//   //   }
-//   //   .right {
-//   //   }
-//   // }
-// }

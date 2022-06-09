@@ -2,6 +2,7 @@
 
 .portfolio {
   border-bottom: 1px solid $black_10;
+
   .container {
     padding-top: 160px;
     padding-bottom: 160px;
@@ -14,15 +15,10 @@
       flex-direction: column;
       align-items: center;
       gap: 32px;
-      margin-bottom: 128px;
+      margin-bottom: 120px;
 
       h2 {
         text-transform: uppercase;
-      }
-
-      p {
-        font-size: $h5;
-        line-height: 40px;
       }
     }
 
@@ -31,7 +27,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin-bottom: 128px;
+      margin-bottom: 120px;
     }
   }
 }

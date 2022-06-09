@@ -14,19 +14,14 @@
 
   h2 {
     color: $white;
-    font-family: $cursive;
-    font-size: 120px;
   }
 
   h3 {
     color: $white;
-    font-size: 60px;
-    font-weight: 300;
   }
 
   p {
     color: $white;
-    font-size: 30px;
   }
 
   .video1-bg {
@@ -37,30 +32,5 @@
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
-  }
-
-  .chevron-container {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-70%, -50%);
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .usedToDo {
-    .wrapper {
-      h2 {
-        font-size: 100px;
-      }
-
-      h3 {
-        font-size: 40px;
-      }
-
-      p {
-        font-size: 20px;
-      }
-    }
   }
 }
