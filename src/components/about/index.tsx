@@ -1,8 +1,8 @@
 import { Element, Link } from "react-scroll";
 import { motion } from "framer-motion";
+import { FaArrowDown } from "react-icons/fa";
 import { me } from "./data";
 import "./about.scss";
-import { FaArrowDown } from "react-icons/fa";
 
 const About = () => {
   const transition = { duration: 3, type: "spring" };
@@ -29,10 +29,11 @@ const About = () => {
                 I was born in Makati, but moved in Laguna. I am married with two
                 lovely kids. I graduated in college with{" "}
                 <i>BS Computer Engineering</i>. I don&apos;t have any travel
-                adventures at the moment and hoping to have one soon but I&apos;m
-                now becoming a boring person and would rather spend the rest of my
-                time in front of the PC than goofing around and travel the world.
-                I&apos;m a witty person and I do ask stupid questions sometimes.
+                adventures at the moment and hoping to have one soon but
+                I&apos;m now becoming a boring person and would rather spend the
+                rest of my time in front of the PC than goofing around and
+                travel the world. I&apos;m a witty person and I do ask stupid
+                questions sometimes.
               </motion.p>
             </div>
           </div>

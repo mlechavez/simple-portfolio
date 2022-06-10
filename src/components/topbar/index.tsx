@@ -1,7 +1,7 @@
-import "./topbar.scss";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { motion } from "framer-motion";
+import "./topbar.scss";
 
 const Topbar = () => {
   const transition = { duration: 3, type: "spring" };

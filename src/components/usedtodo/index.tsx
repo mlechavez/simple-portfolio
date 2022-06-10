@@ -1,6 +1,5 @@
 import { FaArrowDown } from "react-icons/fa";
 import { Element, Link } from "react-scroll";
-
 import "./usedtodo.scss";
 
 type UsedtodoProps = {

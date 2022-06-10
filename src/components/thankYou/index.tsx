@@ -1,10 +1,11 @@
 import { Element, animateScroll as scroll } from "react-scroll";
-import { motion } from "framer-motion";
 import { FaArrowUp, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { motion } from "framer-motion";
 import "./thanksYou.scss";
 
 const ThankYou = () => {
   const transition = { duration: 3, type: "spring" };
+
   return (
     <Element className="thankYou h-100" name="thankYou">
       <div className="container">
@@ -28,9 +29,6 @@ const ThankYou = () => {
         <motion.img
           initial={{ rotate: 0 }}
           whileInView={{ rotate: 720 }}
-          // animate={{
-          //   rotate: 720,
-          // }}
           transition={transition}
           src="assets/github_image.png"
           alt="Mark Lester Echavez"
