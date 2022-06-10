@@ -1,119 +1,64 @@
 @import "../../variables.scss";
 
 .gallery {
-  padding: 100px 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  overflow-x: hidden;
-  background: $black;
-  position: relative;
+  gap: 72px;
 
-  .wrapper {
-    width: 100vw;
+  header {
     display: flex;
     flex-direction: column;
+    gap: 32px;
+    width: 720px;
+    align-self: center;
+    text-align: center;
+  }
 
-    .col-1,
-    .col-2 {
-      text-align: center;
-      margin-bottom: 250px;
-      // position: relative;
+  .img-g-container {
+    position: relative;
+    height: 900px;
+    display: flex;
+    margin-bottom: 148px;
 
-      h3 {
-        font-family: $font-family-sans-serif;
-        font-size: 30px;
-        font-weight: 200;
-        margin-bottom: 70px;
-      }
+    &.bg-black {
+      background: $black;
     }
 
-    .col-1 {
-      position: relative;
-
-      h3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 60px;
-        color: $white;
-      }
-
-      .swiper1 {
-        width: 800px;
-        height: 600px;
-
-        .swiper-slide {
-          background-position: center;
-          background-size: contain;
-        }
-
-        .swiper-slide img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
-      }
+    &.bg-flesh {
+      background: #e6cfad;
     }
 
-    .col-2 {
-      position: relative;
+    .swiper {
+      width: 1440px;
+      height: 900px;
+      position: absolute;
+      left: 50%;
+      top: 128px;
+      transform: translateX(-50%);
+    }
 
-      h3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 60px;
-        color: $white;
-      }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
 
-      .swiper2 {
+      img {
+        display: block;
         width: 100%;
-        height: 600px;
-
-        .swiper-slide {
-          background-position: center;
-          background-size: contain;
-        }
-
-        .swiper-slide img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
+        height: 100%;
+        object-fit: cover;
       }
     }
   }
 
-  .chevron-container {
-    margin: 60px 0;
-    z-index: 2;
+  p.text-center {
+    width: 640px;
+    align-self: center;
+    margin-bottom: 32px;
   }
 
-  // .wrapper {
-  //   display: flex;
-  //   // justify-content: center;
-  //   // align-items: center;
-  //   .left,
-  //   .center,
-  //   .right {
-  //     height: 100vh;
-  //     flex: 0.5;
-  //     position: relative;
-  //     display: flex;
-  //   }
-
-  //   .left {
-  //     img {
-  //     }
-  //   }
-  //   .center {
-  //   }
-  //   .right {
-  //   }
-  // }
+  .btn {
+    align-self: center;
+  }
 }

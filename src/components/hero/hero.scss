@@ -1,0 +1,50 @@
+@import "../../variables";
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    span:first-child {
+      font-size: $h3;
+      background: $gradient;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    span.myName {
+      font-size: $h3;
+      background: $gradient;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  h1 {
+    text-transform: uppercase;
+
+    span {
+      font-size: $h1;
+      color: $secondary;
+    }
+  }
+
+  p {
+    width: 720px;
+    text-align: center;
+  }
+
+  button.btn {
+    margin-top: 72px;
+  }
+}
